@@ -56,14 +56,14 @@ npm install
 
  npm start
 
+The server will start and listen on http://localhost:3000, where your_port is the port number specified in your server.js file . 
+
  ### frontend
 
  cd frontend
 
  npm start
  
-
-The server will start and listen on http://localhost:3000, where your_port is the port number specified in your server.js file . 
 
 ## API Endpoints 
 
