@@ -150,8 +150,27 @@ Create Rule:
 
 Set up a POST request to http://localhost:3000/create with a JSON body containing the rule. 
 
+Combine Rules: 
+
+Set up a POST request to http://localhost:3000/combine with a JSON body containing an array of rules. 
+
+Evaluate Rules: 
+
+Set up a POST request to http://localhost:3000/evaluate with a JSON body containing the AST and data for evaluation. 
+
+
 
 ## Sample Output
+
+rule : age>30 AND department = 'Sales'
+
+data :
+
+ age:36
+ 
+ department: Marketing
+
+ result:Not eligible
 
 ![image](https://github.com/user-attachments/assets/ab80323e-8bca-4ee1-a121-eddf4b89e297)
 
@@ -168,10 +187,3 @@ This project is licensed under the MIT License.
 
 
 
-Combine Rules: 
-
-Set up a POST request to http://localhost:3000/combine with a JSON body containing an array of rules. 
-
-Evaluate Rules: 
-
-Set up a POST request to http://localhost:3000/evaluate with a JSON body containing the AST and data for evaluation. 
