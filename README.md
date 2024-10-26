@@ -1,3 +1,5 @@
+# Rule Engine Project
+
 ## Objective: 
 
 Develop a simple 3-tier rule engine application (Simple UI, API and Backend, Data) to determine user eligibility based on attributes like age, department, income, spend etc. The system can use Abstract Syntax Tree (AST) to represent conditional rules and allow for dynamic creation, combination, and modification of these rules. 
@@ -147,6 +149,14 @@ You can test the API endpoints using tools like Thunder Client or Postman. Follo
 Create Rule: 
 
 Set up a POST request to http://localhost:3000/create with a JSON body containing the rule. 
+
+
+## Sample Output
+
+![image](https://github.com/user-attachments/assets/ab80323e-8bca-4ee1-a121-eddf4b89e297)
+
+![image](https://github.com/user-attachments/assets/0856a7d4-761d-44c1-8c43-846c6326745a)
+
 
 ## Contributing
 
